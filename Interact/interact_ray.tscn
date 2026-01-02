@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://deq6fxtfam444"]
+
+[ext_resource type="Script" uid="uid://cf8glv6ei25gh" path="res://interact_ray.gd" id="1_jmrxg"]
+
+[node name="InteractRay" type="RayCast3D"]
+script = ExtResource("1_jmrxg")

@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://xh7rbhoe0ure"
+path="res://.godot/imported/shield_square.obj-1b45c6a1a946d3582d9e17c55cee842c.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shield_square.obj-1b45c6a1a946d3582d9e17c55cee842c.mesh"]
+
+source_file="res://Assets/obj/shield_square.obj"
+dest_files=["res://.godot/imported/shield_square.obj-1b45c6a1a946d3582d9e17c55cee842c.mesh", "res://.godot/imported/shield_square.obj-1b45c6a1a946d3582d9e17c55cee842c.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false

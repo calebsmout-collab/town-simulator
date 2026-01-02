@@ -1,0 +1,25 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://d3v06filri14i"
+path="res://.godot/imported/shield_square_color.obj-c71ab4b3d2beca3adbb099f3dfd7be32.mesh"
+
+[deps]
+
+files=["res://.godot/imported/shield_square_color.obj-c71ab4b3d2beca3adbb099f3dfd7be32.mesh"]
+
+source_file="res://Assets/obj/shield_square_color.obj"
+dest_files=["res://.godot/imported/shield_square_color.obj-c71ab4b3d2beca3adbb099f3dfd7be32.mesh", "res://.godot/imported/shield_square_color.obj-c71ab4b3d2beca3adbb099f3dfd7be32.mesh"]
+
+[params]
+
+generate_tangents=true
+generate_lods=true
+generate_shadow_mesh=true
+generate_lightmap_uv2=false
+generate_lightmap_uv2_texel_size=0.2
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+force_disable_mesh_compression=false
