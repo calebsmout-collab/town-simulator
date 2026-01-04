@@ -524,8 +524,8 @@ mesh = ExtResource("6_1y031")
 shape = SubResource("ConvexPolygonShape3D_w18bd")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, -0.63454163, 0.7728887, 0, -0.7728887, -0.63454163, 0, 13.488596, -23.214619)
-light_color = Color(0.54141134, 0.5933733, 0.6371177, 1)
-light_energy = 5.971
+transform = Transform3D(1, 0, 0, 0, 0.17210105, 0.9850793, 0, -0.9850793, 0.17210105, 0, 23.722275, 0)
+light_angular_distance = 60.0
+light_specular = 0.0
 
 [connection signal="entered_area_3D" from="UnbuiltOne/Area3D" to="." method="_on_area_3d_entered_area_3d"]
