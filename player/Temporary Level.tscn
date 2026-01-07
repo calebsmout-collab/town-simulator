@@ -531,7 +531,7 @@ light_angular_distance = 60.0
 light_specular = 0.0
 
 [node name="Area3D" type="Area3D" parent="."]
-transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15037242, -24.300611)
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, -0.101616025, 0.15037242, -24.300611)
 script = ExtResource("14_dx5ll")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
