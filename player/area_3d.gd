@@ -9,6 +9,7 @@ var number_of_bricks_needed = 10
 
 func _on_Area3D_body_entered(body: Node3D):
 	if body is not CharacterBody3D:
+		print("body is not player")
 		return
 	if not Bricksmanager.total_bricks:
 		return
