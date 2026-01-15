@@ -85,6 +85,7 @@ script = ExtResource("1_8plc7")
 [node name="CharacterBody3D" parent="." instance=ExtResource("2_q1brt")]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1352775, 0.31249, -5.198804)
+disable_mode = 2
 
 [node name="RoadStraight" type="MeshInstance3D" parent="."]
 transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.90387243, -9.536743e-07, -17.110615)
