@@ -4,13 +4,13 @@ class_name bricksmanager
 var max_bricks: int = 100
 
 # Use 'int' for currency to avoid floating-point errors. Store value in the smallest unit (e.g., cents).
-var total_bricks: int = 100
+var total_bricks: int = 50
 
 # Signal emitted when the currency amount changes, for UI updates
 signal bricks_changed(amount: int)
 
 func add_bricks(amount: float):
-	total_bricks = clamp(total_bricks + amount, 0.0, max_bricks)
+	total_bricks = clamp(total_bricks + amount, 0, max_bricks)
 
 
 func add_coins(amount: int) -> void:
