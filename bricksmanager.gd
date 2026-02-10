@@ -9,10 +9,11 @@ var total_bricks: int = 50
 # Signal emitted when the currency amount changes, for UI updates
 signal bricks_changed(amount: int)
 
+func add_bricks(amount: float):
+	total_bricks = clamp(total_bricks + amount, 0, max_bricks)
 
 
-
-func add_bricks(amount: int) -> void:
+func add_coins(amount: int) -> void:
 	if amount > 0:
 		total_bricks += amount
 		emit_signal("bricks_changed", total_bricks)
