@@ -1,4 +1,4 @@
-[gd_scene load_steps=36 format=3 uid="uid://1bxk855talmi"]
+[gd_scene load_steps=37 format=3 uid="uid://1bxk855talmi"]
 
 [ext_resource type="Script" uid="uid://bwousp1dpxapb" path="res://player/temporary_level.gd" id="1_8plc7"]
 [ext_resource type="PackedScene" uid="uid://c4ev413klxhw2" path="res://player/Player.tscn" id="2_q1brt"]
@@ -78,6 +78,8 @@ blend_mode = 3
 
 [sub_resource type="SphereShape3D" id="SphereShape3D_dx5ll"]
 radius = 0.46046203
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_md6n0"]
 
 [node name="Level" type="Node3D"]
 script = ExtResource("1_8plc7")
@@ -531,16 +533,20 @@ transform = Transform3D(1, 0, 0, 0, 0.17210105, 0.9850793, 0, -0.9850793, 0.1721
 light_angular_distance = 60.0
 light_specular = 0.0
 
-[node name="Area3D" type="Area3D" parent="."]
-transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, -0.101616025, 0.15037242, -24.300611)
-script = ExtResource("14_dx5ll")
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D"]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.9392889, 0, 0)
-shape = SubResource("SphereShape3D_8plc7")
-
 [node name="Bush" type="MeshInstance3D" parent="."]
 transform = Transform3D(1.6391389, 0, 0, 0, 2.813414, 0, 0, 0, 1.6427397, 0.04850799, 0.092808485, -24.340494)
 mesh = ExtResource("15_3cnbe")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="Bush"]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bush/StaticBody3D"]
+shape = SubResource("ConvexPolygonShape3D_md6n0")
+
+[node name="Area3D" type="Area3D" parent="Bush"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.091587126, 0.020460524, 0.02427864)
+script = ExtResource("14_dx5ll")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Bush/Area3D"]
+shape = SubResource("SphereShape3D_8plc7")
 
 [connection signal="entered_area_3D" from="UnbuiltOne/Area3D" to="." method="_on_area_3d_entered_area_3d"]

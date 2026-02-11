@@ -11,6 +11,7 @@ signal bricks_changed(amount: int)
 
 func add_bricks(amount: float):
 	total_bricks = clamp(total_bricks + amount, 0, max_bricks)
+	emit_signal("bricks_changed", total_bricks)
 
 
 func add_coins(amount: int) -> void:
