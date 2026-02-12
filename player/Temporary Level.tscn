@@ -377,6 +377,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_06k2i")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="UnbuiltOne/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_8plc7")
+disabled = true
 
 [node name="Area3D" type="Area3D" parent="UnbuiltOne"]
 transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15037242, 1.0701551)
@@ -493,6 +494,7 @@ surface_material_override/0 = SubResource("StandardMaterial3D_8plc7")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="BuildingF2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_up46d")
+disabled = true
 
 [node name="Area3D" type="Area3D" parent="BuildingF2"]
 transform = Transform3D(1, 0, -7.1054274e-15, 0, 1.0000001, 0, 0, 0, 1, -0.087741375, 0.2590352, 0.8964831)
