@@ -484,21 +484,21 @@ mesh = ExtResource("9_06k2i")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="BuildingE2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_ls8g2")
 
-[node name="BuildingF2" type="MeshInstance3D" parent="."]
+[node name="Unbuilt 2" type="MeshInstance3D" parent="."]
 transform = Transform3D(-1.0234477e-07, 0, 3.018811, 0, 2.3275273, 0, -2.3413756, 0, -1.3195643e-07, -5.3684793, 0, 2.7504435)
 mesh = ExtResource("10_8plc7")
 surface_material_override/0 = SubResource("StandardMaterial3D_8plc7")
 
-[node name="StaticBody3D" type="StaticBody3D" parent="BuildingF2"]
+[node name="StaticBody3D" type="StaticBody3D" parent="Unbuilt 2"]
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="BuildingF2/StaticBody3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Unbuilt 2/StaticBody3D"]
 shape = SubResource("ConvexPolygonShape3D_up46d")
 
-[node name="Area3D" type="Area3D" parent="BuildingF2"]
+[node name="Area3D" type="Area3D" parent="Unbuilt 2"]
 transform = Transform3D(1, 0, -7.1054274e-15, 0, 1.0000001, 0, 0, 0, 1, -0.087741375, 0.2590352, 0.8964831)
 script = ExtResource("3_q1brt")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="BuildingF2/Area3D"]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Unbuilt 2/Area3D"]
 shape = SubResource("SphereShape3D_dx5ll")
 
 [node name="BuildingG2" type="MeshInstance3D" parent="."]
