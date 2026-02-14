@@ -19,7 +19,7 @@ func _on_Area3D_body_entered(body: Node3D):
 		print("player doesn't have bricks")
 		return
 
-	if not self.get_parent().get_node("StaticBody3D/CollisionShape3D"):
+	if not self.get_parent().get_node("StaticBody3D/CollisionShape3D").disabled:
 		print("collider is enabled")
 		return
 	
