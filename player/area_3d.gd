@@ -3,7 +3,7 @@ extends Area3D
 signal entered_area_3D(CharacterBody3D)
 
 
-var cost_of_building = 10
+var cost_of_building = 50
 var number_of_bricks_needed = 10
 
 func _ready():
