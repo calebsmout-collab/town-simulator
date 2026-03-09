@@ -86,11 +86,11 @@ script = ExtResource("1_8plc7")
 
 [node name="CharacterBody3D" parent="." unique_id=786954086 instance=ExtResource("2_q1brt")]
 unique_name_in_owner = true
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.1352775, 0.31249, -5.198804)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.755219, 0.31249, -5.198804)
 disable_mode = 2
 
 [node name="RoadStraight" type="MeshInstance3D" parent="." unique_id=1939525261]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.90387243, -9.536743e-07, -17.110615)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -14.986625, -9.536743e-07, -17.110615)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight" unique_id=837553005]
@@ -99,7 +99,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight2" type="MeshInstance3D" parent="." unique_id=1701758223]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.8831349, 0.0059180856, -5.8681498)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -15.007362, 0.0059180856, -5.8681498)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight2" unique_id=530377813]
@@ -108,7 +108,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_whwtf")
 
 [node name="RoadStraight3" type="MeshInstance3D" parent="." unique_id=550382315]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.8878443, 0.0064367056, -0.22745419)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -15.002653, 0.0064367056, -0.22745419)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight3" unique_id=567060572]
@@ -117,7 +117,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_1fwvy")
 
 [node name="RoadStraight4" type="MeshInstance3D" parent="." unique_id=633338983]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.90387243, 0.005272031, 5.4364004)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -14.986625, 0.005272031, 5.4364004)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight4" unique_id=36756011]
@@ -126,7 +126,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_1y031")
 
 [node name="RoadStraight5" type="MeshInstance3D" parent="." unique_id=1440093324]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.90387243, 0.0095409155, 16.731243)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -14.986625, 0.0095409155, 16.731243)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight5" unique_id=166827006]
@@ -135,7 +135,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_us01b")
 
 [node name="RoadStraight6" type="MeshInstance3D" parent="." unique_id=1971111063]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.90387243, 0.00013944507, -11.532648)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -14.986625, 0.00013944507, -11.532648)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight6" unique_id=1538752724]
@@ -144,7 +144,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_jjn5d")
 
 [node name="RoadStraight7" type="MeshInstance3D" parent="." unique_id=1982051197]
-transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 0.90387243, 0.008051634, 11.074555)
+transform = Transform3D(3.3615067, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -14.986625, 0.008051634, 11.074555)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7" unique_id=767887229]
@@ -152,8 +152,465 @@ mesh = ExtResource("3_8ov26")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/StaticBody3D" unique_id=1368478858]
 shape = SubResource("ConvexPolygonShape3D_us01b")
 
+[node name="RoadStraight" type="MeshInstance3D" parent="RoadStraight7" unique_id=412441305]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.691121, -0.02323386, -9.958134)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight" unique_id=989136041]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight/StaticBody3D" unique_id=1309554529]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight2" type="MeshInstance3D" parent="RoadStraight7" unique_id=1617501237]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.6848545, -0.017022133, -5.9450436)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight2" unique_id=1697993603]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight2/StaticBody3D" unique_id=1580039679]
+shape = SubResource("ConvexPolygonShape3D_whwtf")
+
+[node name="RoadStraight3" type="MeshInstance3D" parent="RoadStraight7" unique_id=1711399104]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.686277, -0.016477853, -3.9315515)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight3" unique_id=243878457]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight3/StaticBody3D" unique_id=1590002468]
+shape = SubResource("ConvexPolygonShape3D_1fwvy")
+
+[node name="RoadStraight4" type="MeshInstance3D" parent="RoadStraight7" unique_id=2139874897]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.691121, -0.017700136, -1.9097925)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight4" unique_id=309641691]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight4/StaticBody3D" unique_id=718504696]
+shape = SubResource("ConvexPolygonShape3D_1y031")
+
+[node name="RoadStraight5" type="MeshInstance3D" parent="RoadStraight7" unique_id=2063920857]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.691121, -0.013220161, 2.1219928)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight5" unique_id=57061360]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight5/StaticBody3D" unique_id=1482595490]
+shape = SubResource("ConvexPolygonShape3D_us01b")
+
+[node name="RoadStraight6" type="MeshInstance3D" parent="RoadStraight7" unique_id=948333621]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.691121, -0.023086518, -7.9670305)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight6" unique_id=340965716]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight6/StaticBody3D" unique_id=1827444106]
+shape = SubResource("ConvexPolygonShape3D_jjn5d")
+
+[node name="RoadStraight7" type="MeshInstance3D" parent="RoadStraight7" unique_id=1573847701]
+transform = Transform3D(1.015793, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 8.691121, -0.014783084, 0.102793455)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight7" unique_id=456026584]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight7/StaticBody3D" unique_id=1116203992]
+shape = SubResource("ConvexPolygonShape3D_us01b")
+
+[node name="RoadTsplit" type="MeshInstance3D" parent="RoadStraight7" unique_id=378550344]
+transform = Transform3D(-5.478812e-08, 0, 1.0155555, 0, 1.049448, 0, -1.2534058, 0, -4.4391346e-08, 8.695449, -0.027728617, 4.3829775)
+mesh = ExtResource("4_whwtf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadTsplit" unique_id=1321925291]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadTsplit/StaticBody3D" unique_id=1237361426]
+shape = SubResource("ConvexPolygonShape3D_kgxd2")
+
+[node name="RoadStraight8" type="MeshInstance3D" parent="RoadStraight7" unique_id=943476521]
+transform = Transform3D(-5.4343953e-08, 0, -0.85624844, 0, 1.049448, 0, 1.2432444, 0, -3.7427817e-08, 10.563556, 0.0040751994, 4.393817)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight8" unique_id=957725643]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight8/StaticBody3D" unique_id=995684574]
+shape = SubResource("ConvexPolygonShape3D_us01b")
+
+[node name="RoadStraight9" type="MeshInstance3D" parent="RoadStraight7" unique_id=328058868]
+transform = Transform3D(-5.4343953e-08, 0, -0.85624844, 0, 1.049448, 0, 1.2432444, 0, -3.7427817e-08, 6.837059, 0.0040751994, 4.393817)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight9" unique_id=33909014]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight9/StaticBody3D" unique_id=546234305]
+shape = SubResource("ConvexPolygonShape3D_us01b")
+
+[node name="RoadCornerCurved" type="MeshInstance3D" parent="RoadStraight7" unique_id=1132798409]
+transform = Transform3D(-5.4587286e-08, 0, 0.8515359, 0, 1.049448, 0, -1.2488116, 0, -3.7221813e-08, 5.1438384, -0.002608478, 4.388031)
+mesh = ExtResource("5_1fwvy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadCornerCurved" unique_id=1725078228]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadCornerCurved/StaticBody3D" unique_id=1262431380]
+shape = SubResource("ConvexPolygonShape3D_06k2i")
+
+[node name="RoadCornerCurved2" type="MeshInstance3D" parent="RoadStraight7" unique_id=1970330057]
+transform = Transform3D(-0.8335268, 0, -1.0991031e-07, 0, 1.049448, 0, 7.286922e-08, 0, -1.2572277, 12.250679, 0.0029141307, 4.3926477)
+mesh = ExtResource("5_1fwvy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadCornerCurved2" unique_id=917373554]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadCornerCurved2/StaticBody3D" unique_id=2065377110]
+shape = SubResource("ConvexPolygonShape3D_06k2i")
+
+[node name="RoadTsplit2" type="MeshInstance3D" parent="RoadStraight7" unique_id=2144356372]
+transform = Transform3D(-5.4788124e-08, 0, -1.0155556, 0, 1.049448, 0, 1.2534058, 0, -4.439133e-08, 8.695449, -0.030779868, -12.226548)
+mesh = ExtResource("4_whwtf")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadTsplit2" unique_id=979415676]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadTsplit2/StaticBody3D" unique_id=763622737]
+shape = SubResource("ConvexPolygonShape3D_kgxd2")
+
+[node name="RoadStraight10" type="MeshInstance3D" parent="RoadStraight7" unique_id=209285162]
+transform = Transform3D(-5.4343953e-08, 0, -0.85624844, 0, 1.049448, 0, 1.2432444, 0, -3.7427817e-08, 6.837059, 0.0040751994, -12.222817)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight10" unique_id=283202968]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight10/StaticBody3D" unique_id=2007494475]
+shape = SubResource("ConvexPolygonShape3D_us01b")
+
+[node name="RoadStraight11" type="MeshInstance3D" parent="RoadStraight7" unique_id=363464234]
+transform = Transform3D(-5.4343953e-08, 0, -0.85624844, 0, 1.049448, 0, 1.2432444, 0, -3.7427817e-08, 10.563556, -0.049473792, -12.223579)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight11" unique_id=1921565294]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight11/StaticBody3D" unique_id=82582988]
+shape = SubResource("ConvexPolygonShape3D_us01b")
+
+[node name="RoadCornerCurved3" type="MeshInstance3D" parent="RoadStraight7" unique_id=1000947646]
+transform = Transform3D(0.873321, 0, 0, 0, 1.049448, 0, 3.5474343e-15, 0, 1.2558489, 5.1438384, -0.002608478, -12.225342)
+mesh = ExtResource("5_1fwvy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadCornerCurved3" unique_id=822189338]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadCornerCurved3/StaticBody3D" unique_id=472355412]
+shape = SubResource("ConvexPolygonShape3D_06k2i")
+
+[node name="RoadCornerCurved4" type="MeshInstance3D" parent="RoadStraight7" unique_id=2127505422]
+transform = Transform3D(1.660994e-07, 0, -0.82567364, 0, 1.049448, 0, 1.266637, 0, 1.08274016e-07, 12.250679, -0.0645847, -12.21784)
+mesh = ExtResource("5_1fwvy")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadCornerCurved4" unique_id=1645083165]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadCornerCurved4/StaticBody3D" unique_id=303863382]
+shape = SubResource("ConvexPolygonShape3D_06k2i")
+
+[node name="RoadStraight12" type="MeshInstance3D" parent="RoadStraight7" unique_id=1180782335]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.129758, -0.02323386, -9.958134)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight12" unique_id=1241015407]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight12/StaticBody3D" unique_id=351803598]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight13" type="MeshInstance3D" parent="RoadStraight7" unique_id=1494980919]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, -9.958134)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight13" unique_id=491383285]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight13/StaticBody3D" unique_id=415583976]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight14" type="MeshInstance3D" parent="RoadStraight7" unique_id=1016933217]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, -7.936167)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight14" unique_id=905223976]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight14/StaticBody3D" unique_id=2046577996]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight15" type="MeshInstance3D" parent="RoadStraight7" unique_id=89293280]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, -5.924529)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight15" unique_id=1699444809]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight15/StaticBody3D" unique_id=500493777]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight16" type="MeshInstance3D" parent="RoadStraight7" unique_id=599020578]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, -3.9069724)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight16" unique_id=410679251]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight16/StaticBody3D" unique_id=1362912147]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight17" type="MeshInstance3D" parent="RoadStraight7" unique_id=2027447695]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, -1.8788395)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight17" unique_id=113302952]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight17/StaticBody3D" unique_id=953002641]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight18" type="MeshInstance3D" parent="RoadStraight7" unique_id=958545049]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, 0.12567782)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight18" unique_id=949720643]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight18/StaticBody3D" unique_id=2078467859]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight19" type="MeshInstance3D" parent="RoadStraight7" unique_id=1190603868]
+transform = Transform3D(0.8164649, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 12.242035, -0.02323386, 2.1489108)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight19" unique_id=1836585672]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight19/StaticBody3D" unique_id=1825775461]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight20" type="MeshInstance3D" parent="RoadStraight7" unique_id=868247520]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.1169877, -0.027719587, -7.954233)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight20" unique_id=839506012]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight20/StaticBody3D" unique_id=310365813]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight21" type="MeshInstance3D" parent="RoadStraight7" unique_id=373160168]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.129758, -0.02323386, -5.9528365)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight21" unique_id=1671902727]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight21/StaticBody3D" unique_id=1741743780]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight22" type="MeshInstance3D" parent="RoadStraight7" unique_id=1329063230]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.129758, -0.02323386, -3.9151208)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight22" unique_id=1505915658]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight22/StaticBody3D" unique_id=364648269]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight23" type="MeshInstance3D" parent="RoadStraight7" unique_id=889920327]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.129758, -0.02323386, -1.9020658)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight23" unique_id=239407954]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight23/StaticBody3D" unique_id=1083394203]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight24" type="MeshInstance3D" parent="RoadStraight7" unique_id=971972457]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.129758, -0.02323386, 0.14311576)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight24" unique_id=632529882]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight24/StaticBody3D" unique_id=2027802457]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="RoadStraight25" type="MeshInstance3D" parent="RoadStraight7" unique_id=1230438942]
+transform = Transform3D(0.88245046, 0, 0, 0, 1.049448, 0, 0, 0, 1.0114535, 5.129758, -0.02323386, 2.1609752)
+mesh = ExtResource("3_8ov26")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/RoadStraight25" unique_id=1465138517]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/RoadStraight25/StaticBody3D" unique_id=2095341328]
+shape = SubResource("ConvexPolygonShape3D_3y6ib")
+
+[node name="UnbuiltOne" type="MeshInstance3D" parent="RoadStraight7" unique_id=799431088]
+transform = Transform3D(0.8825665, 0, 0, 0, 3.4081721, 0, 0, 0, 1.0494514, 10.567402, -0.24462971, 2.0919697)
+mesh = ExtResource("6_1y031")
+surface_material_override/0 = SubResource("StandardMaterial3D_06k2i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/UnbuiltOne" unique_id=477406589]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/UnbuiltOne/StaticBody3D" unique_id=1623675051]
+shape = SubResource("ConvexPolygonShape3D_8plc7")
+disabled = true
+
+[node name="Area3D" type="Area3D" parent="RoadStraight7/UnbuiltOne" unique_id=1434274507]
+transform = Transform3D(0.9999999, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.15037242, 1.0701551)
+script = ExtResource("3_q1brt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/UnbuiltOne/Area3D" unique_id=1125341032]
+shape = SubResource("SphereShape3D_8plc7")
+
+[node name="BuildingC" type="MeshInstance3D" parent="RoadStraight7" unique_id=1817530437]
+transform = Transform3D(-4.0204547e-08, 0, -0.8997445, 0, 2.7137628, 0, 0.919773, 0, -3.9329077e-08, 10.583761, -0.18637797, 0.12639785)
+mesh = ExtResource("7_jjn5d")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingC" unique_id=1960200037]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingC/StaticBody3D" unique_id=218342837]
+shape = SubResource("ConvexPolygonShape3D_dx5ll")
+
+[node name="BuildingD" type="MeshInstance3D" parent="RoadStraight7" unique_id=1405075509]
+transform = Transform3D(-3.890313e-08, 0, -0.8764703, 0, 2.129673, 0, 0.8899997, 0, -3.8311725e-08, 10.579035, -0.023232847, -1.6658621)
+mesh = ExtResource("8_kgxd2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingD" unique_id=2100500418]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingD/StaticBody3D" unique_id=1896728064]
+shape = SubResource("ConvexPolygonShape3D_3cnbe")
+
+[node name="BuildingE" type="MeshInstance3D" parent="RoadStraight7" unique_id=880823077]
+transform = Transform3D(-3.5792098e-08, 0, -0.8880843, 0, 3.155205, 0, 0.8188277, 0, -3.88194e-08, 10.544959, -0.023232847, -3.36662)
+mesh = ExtResource("9_06k2i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingE" unique_id=951710395]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingE/StaticBody3D" unique_id=389341881]
+shape = SubResource("ConvexPolygonShape3D_ls8g2")
+
+[node name="BuildingF" type="MeshInstance3D" parent="RoadStraight7" unique_id=121906890]
+transform = Transform3D(-3.6532786e-08, 0, -0.9122359, 0, 2.4426188, 0, 0.8357728, 0, -3.9875093e-08, 10.533402, -0.023232847, -5.051716)
+mesh = ExtResource("10_8plc7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingF" unique_id=2102175663]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingF/StaticBody3D" unique_id=1658530014]
+shape = SubResource("ConvexPolygonShape3D_up46d")
+
+[node name="BuildingG" type="MeshInstance3D" parent="RoadStraight7" unique_id=509123990]
+transform = Transform3D(-3.4813958e-08, 0, -0.92613673, 0, 2.5923069, 0, 0.79645056, 0, -4.0482725e-08, 10.552506, -0.023232847, -6.685338)
+mesh = ExtResource("11_kgxd2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingG" unique_id=513705152]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingG/StaticBody3D" unique_id=1822666938]
+shape = SubResource("ConvexPolygonShape3D_wv2yy")
+
+[node name="BuildingH" type="MeshInstance3D" parent="RoadStraight7" unique_id=985018815]
+transform = Transform3D(-4.6131394e-08, 0, -0.96900535, 0, 2.5781646, 0, 1.0553632, 0, -4.2356568e-08, 10.592931, -0.023232847, -8.503069)
+mesh = ExtResource("12_06k2i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingH" unique_id=747458181]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingH/StaticBody3D" unique_id=1770630668]
+shape = SubResource("ConvexPolygonShape3D_ydjw1")
+
+[node name="BuildingB2" type="MeshInstance3D" parent="RoadStraight7" unique_id=1578181243]
+transform = Transform3D(-0.9819568, 0, 6.632168e-08, 0, 3.650353, 0, -8.5845386e-08, 0, -0.7586317, 10.524187, -0.023232609, -10.321707)
+mesh = ExtResource("6_1y031")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingB2" unique_id=76795209]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingB2/StaticBody3D" unique_id=1081115016]
+shape = SubResource("ConvexPolygonShape3D_w18bd")
+
+[node name="BuildingB3" type="MeshInstance3D" parent="RoadStraight7" unique_id=1171873558]
+transform = Transform3D(-0.8825664, 0, -9.174593e-08, 0, 3.4081721, 0, 7.71564e-08, 0, -1.0494512, 6.7617197, -0.24462971, -10.012256)
+mesh = ExtResource("6_1y031")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingB3" unique_id=1027866156]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingB3/StaticBody3D" unique_id=53133915]
+shape = SubResource("ConvexPolygonShape3D_8plc7")
+
+[node name="BuildingC2" type="MeshInstance3D" parent="RoadStraight7" unique_id=1889165749]
+transform = Transform3D(-4.0204558e-08, 0, 0.8997445, 0, 2.713763, 0, -0.9197731, 0, -3.9329077e-08, 6.7453594, -0.18637797, -8.0466795)
+mesh = ExtResource("7_jjn5d")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingC2" unique_id=1713142251]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingC2/StaticBody3D" unique_id=1137775729]
+shape = SubResource("ConvexPolygonShape3D_dx5ll")
+
+[node name="BuildingD2" type="MeshInstance3D" parent="RoadStraight7" unique_id=988433933]
+transform = Transform3D(-3.890313e-08, 0, 0.8764703, 0, 2.129673, 0, -0.8899998, 0, -3.8311736e-08, 6.750087, -0.023232847, -6.2544203)
+mesh = ExtResource("8_kgxd2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingD2" unique_id=577538578]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingD2/StaticBody3D" unique_id=267409014]
+shape = SubResource("ConvexPolygonShape3D_3cnbe")
+
+[node name="BuildingE2" type="MeshInstance3D" parent="RoadStraight7" unique_id=2074975809]
+transform = Transform3D(-3.5792098e-08, 0, 0.88808423, 0, 3.1552043, 0, -0.8188277, 0, -3.88194e-08, 6.784162, -0.023232847, -4.5536604)
+mesh = ExtResource("9_06k2i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingE2" unique_id=786700926]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingE2/StaticBody3D" unique_id=750033461]
+shape = SubResource("ConvexPolygonShape3D_ls8g2")
+
+[node name="Unbuilt 2" type="MeshInstance3D" parent="RoadStraight7" unique_id=58495510]
+transform = Transform3D(-3.6532786e-08, 0, 0.9122359, 0, 2.4426188, 0, -0.83577293, 0, -3.9875093e-08, 6.7957187, -0.023232847, -2.868566)
+mesh = ExtResource("10_8plc7")
+surface_material_override/0 = SubResource("StandardMaterial3D_8plc7")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/Unbuilt 2" unique_id=135690633]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/Unbuilt 2/StaticBody3D" unique_id=948896691]
+shape = SubResource("ConvexPolygonShape3D_up46d")
+disabled = true
+
+[node name="Area3D" type="Area3D" parent="RoadStraight7/Unbuilt 2" unique_id=45790607]
+transform = Transform3D(1, 0, -7.1054274e-15, 0, 1.0000001, 0, 0, 0, 1, -0.087741375, 0.2590352, 0.8964831)
+script = ExtResource("3_q1brt")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/Unbuilt 2/Area3D" unique_id=363077349]
+shape = SubResource("SphereShape3D_dx5ll")
+
+[node name="BuildingG2" type="MeshInstance3D" parent="RoadStraight7" unique_id=663010087]
+transform = Transform3D(-3.481397e-08, 0, 0.92613673, 0, 2.5923064, 0, -0.7964506, 0, -4.048271e-08, 6.7766147, -0.023232847, -1.2349427)
+mesh = ExtResource("11_kgxd2")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingG2" unique_id=1603580218]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingG2/StaticBody3D" unique_id=270819660]
+shape = SubResource("ConvexPolygonShape3D_wv2yy")
+
+[node name="BuildingH2" type="MeshInstance3D" parent="RoadStraight7" unique_id=927235052]
+transform = Transform3D(-4.6131404e-08, 0, 0.96900535, 0, 2.5781646, 0, -1.0553632, 0, -4.2356564e-08, 6.7361903, -0.023232847, 0.5827868)
+mesh = ExtResource("12_06k2i")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingH2" unique_id=1935143857]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingH2/StaticBody3D" unique_id=836273723]
+shape = SubResource("ConvexPolygonShape3D_ydjw1")
+
+[node name="BuildingB4" type="MeshInstance3D" parent="RoadStraight7" unique_id=1107759689]
+transform = Transform3D(0.9819569, 0, 0, 0, 3.6503532, 0, 0, 0, 0.7586317, 6.8049345, -0.023232609, 2.4014213)
+mesh = ExtResource("6_1y031")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/BuildingB4" unique_id=1934602166]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/BuildingB4/StaticBody3D" unique_id=1075045351]
+shape = SubResource("ConvexPolygonShape3D_w18bd")
+
+[node name="Bush" type="MeshInstance3D" parent="RoadStraight7" unique_id=1422363953]
+transform = Transform3D(0.49532118, 0, 0, 0, 2.952532, 0, 0, 0, 0.5863891, 8.432644, 0.07416481, -12.538898)
+mesh = ExtResource("15_3cnbe")
+
+[node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight7/Bush" unique_id=426989090]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/Bush/StaticBody3D" unique_id=1742862722]
+shape = SubResource("ConvexPolygonShape3D_md6n0")
+
+[node name="Area3D" type="Area3D" parent="RoadStraight7/Bush" unique_id=1330666698]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.091587126, 0.020460524, 0.02427864)
+script = ExtResource("14_dx5ll")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RoadStraight7/Bush/Area3D" unique_id=1588493744]
+shape = SubResource("SphereShape3D_8plc7")
+
 [node name="RoadTsplit" type="MeshInstance3D" parent="." unique_id=1241807924]
-transform = Transform3D(-1.5348614e-07, 0, 3.360721, 0, 1, 0, -3.5113537, 0, -1.469018e-07, 0.918193, -0.004283905, 23.065277)
+transform = Transform3D(-1.5348614e-07, 0, 3.360721, 0, 1, 0, -3.5113537, 0, -1.469018e-07, -14.972304, -0.004283905, 23.065277)
 mesh = ExtResource("4_whwtf")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadTsplit" unique_id=1734295675]
@@ -162,7 +619,7 @@ mesh = ExtResource("4_whwtf")
 shape = SubResource("ConvexPolygonShape3D_kgxd2")
 
 [node name="RoadStraight8" type="MeshInstance3D" parent="." unique_id=675178220]
-transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, 7.100216, 0.026021361, 23.095646)
+transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, -8.790281, 0.026021361, 23.095646)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight8" unique_id=555462049]
@@ -171,7 +628,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_us01b")
 
 [node name="RoadStraight9" type="MeshInstance3D" parent="." unique_id=64645938]
-transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, -5.2316723, 0.026021361, 23.095646)
+transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, -21.12217, 0.026021361, 23.095646)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight9" unique_id=1024627001]
@@ -180,7 +637,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_us01b")
 
 [node name="RoadCornerCurved" type="MeshInstance3D" parent="." unique_id=1045222345]
-transform = Transform3D(-1.5292352e-07, 0, 2.81794, 0, 1, 0, -3.4984825, 0, -1.2317606e-07, -10.834951, 0.019652605, 23.079437)
+transform = Transform3D(-1.5292352e-07, 0, 2.81794, 0, 1, 0, -3.4984825, 0, -1.2317606e-07, -26.725449, 0.019652605, 23.079437)
 mesh = ExtResource("5_1fwvy")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadCornerCurved" unique_id=104224373]
@@ -189,7 +646,7 @@ mesh = ExtResource("5_1fwvy")
 shape = SubResource("ConvexPolygonShape3D_06k2i")
 
 [node name="RoadCornerCurved2" type="MeshInstance3D" parent="." unique_id=1543583101]
-transform = Transform3D(-2.7583437, 0, -3.0790824e-07, 0, 1, 0, 2.4114206e-07, 0, -3.5220602, 12.683322, 0.02491498, 23.092373)
+transform = Transform3D(-2.7583437, 0, -3.0790824e-07, 0, 1, 0, 2.4114206e-07, 0, -3.5220602, -3.2071753, 0.02491498, 23.092373)
 mesh = ExtResource("5_1fwvy")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadCornerCurved2" unique_id=1375023903]
@@ -198,7 +655,7 @@ mesh = ExtResource("5_1fwvy")
 shape = SubResource("ConvexPolygonShape3D_06k2i")
 
 [node name="RoadTsplit2" type="MeshInstance3D" parent="." unique_id=440643389]
-transform = Transform3D(-1.5348616e-07, 0, -3.3607216, 0, 1, 0, 3.5113537, 0, -1.4690177e-07, 0.918193, -0.0071914196, -23.465473)
+transform = Transform3D(-1.5348616e-07, 0, -3.3607216, 0, 1, 0, 3.5113537, 0, -1.4690177e-07, -14.972304, -0.0071914196, -23.465473)
 mesh = ExtResource("4_whwtf")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadTsplit2" unique_id=2000745868]
@@ -207,7 +664,7 @@ mesh = ExtResource("4_whwtf")
 shape = SubResource("ConvexPolygonShape3D_kgxd2")
 
 [node name="RoadStraight10" type="MeshInstance3D" parent="." unique_id=417608847]
-transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, -5.2316723, 0.026021361, -23.455013)
+transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, -21.12217, 0.026021361, -23.455013)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight10" unique_id=182695113]
@@ -216,7 +673,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_us01b")
 
 [node name="RoadStraight11" type="MeshInstance3D" parent="." unique_id=153337949]
-transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, 7.100216, -0.025004506, -23.45713)
+transform = Transform3D(-1.5224184e-07, 0, -2.8335354, 0, 1, 0, 3.482887, 0, -1.2385777e-07, -8.790281, -0.025004506, -23.45713)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight11" unique_id=855867631]
@@ -225,7 +682,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_us01b")
 
 [node name="RoadCornerCurved3" type="MeshInstance3D" parent="." unique_id=1211435416]
-transform = Transform3D(2.8900323, 0, 0, 0, 1, 0, 1.1739328e-14, 0, 3.518197, -10.834951, 0.019652605, -23.46209)
+transform = Transform3D(2.8900323, 0, 0, 0, 1, 0, 1.1739328e-14, 0, 3.518197, -26.725449, 0.019652605, -23.46209)
 mesh = ExtResource("5_1fwvy")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadCornerCurved3" unique_id=1460862070]
@@ -234,7 +691,7 @@ mesh = ExtResource("5_1fwvy")
 shape = SubResource("ConvexPolygonShape3D_06k2i")
 
 [node name="RoadCornerCurved4" type="MeshInstance3D" parent="." unique_id=1585605798]
-transform = Transform3D(4.6531903e-07, 0, -2.732356, 0, 1, 0, 3.5484197, 0, 3.5830521e-07, 12.683322, -0.03940344, -23.441065)
+transform = Transform3D(4.6531903e-07, 0, -2.732356, 0, 1, 0, 3.5484197, 0, 3.5830521e-07, -3.2071753, -0.03940344, -23.441065)
 mesh = ExtResource("5_1fwvy")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadCornerCurved4" unique_id=67420041]
@@ -243,7 +700,7 @@ mesh = ExtResource("5_1fwvy")
 shape = SubResource("ConvexPolygonShape3D_06k2i")
 
 [node name="RoadStraight12" type="MeshInstance3D" parent="." unique_id=1148921657]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.881551, -9.536743e-07, -17.110615)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.772049, -9.536743e-07, -17.110615)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight12" unique_id=2130070403]
@@ -252,7 +709,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight13" type="MeshInstance3D" parent="." unique_id=339646093]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, -17.110615)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, -17.110615)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight13" unique_id=18710520]
@@ -261,7 +718,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight14" type="MeshInstance3D" parent="." unique_id=733451285]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, -11.446184)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, -11.446184)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight14" unique_id=810456356]
@@ -270,7 +727,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight15" type="MeshInstance3D" parent="." unique_id=2110650431]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, -5.8106833)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, -5.8106833)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight15" unique_id=2080250565]
@@ -279,7 +736,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight16" type="MeshInstance3D" parent="." unique_id=721484549]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, -0.15859699)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, -0.15859699)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight16" unique_id=249151360]
@@ -288,7 +745,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight17" type="MeshInstance3D" parent="." unique_id=1416358]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, 5.523114)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, 5.523114)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight17" unique_id=62532889]
@@ -297,7 +754,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight18" type="MeshInstance3D" parent="." unique_id=518347452]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, 11.138667)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, 11.138667)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight18" unique_id=269755510]
@@ -306,7 +763,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight19" type="MeshInstance3D" parent="." unique_id=1520026990]
-transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, 12.654713, -9.536743e-07, 16.806656)
+transform = Transform3D(2.701882, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -3.2357845, -9.536743e-07, 16.806656)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight19" unique_id=1424836298]
@@ -315,7 +772,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight20" type="MeshInstance3D" parent="." unique_id=841645925]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.923811, -0.004275322, -11.49679)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.814308, -0.004275322, -11.49679)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight20" unique_id=1460042542]
@@ -324,7 +781,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight21" type="MeshInstance3D" parent="." unique_id=1515481156]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.881551, -9.536743e-07, -5.889984)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.772049, -9.536743e-07, -5.889984)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight21" unique_id=57206199]
@@ -333,7 +790,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight22" type="MeshInstance3D" parent="." unique_id=2104250742]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.881551, -9.536743e-07, -0.18142605)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.772049, -9.536743e-07, -0.18142605)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight22" unique_id=1662116697]
@@ -342,7 +799,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight23" type="MeshInstance3D" parent="." unique_id=216435614]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.881551, -9.536743e-07, 5.458047)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.772049, -9.536743e-07, 5.458047)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight23" unique_id=1440741627]
@@ -351,7 +808,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight24" type="MeshInstance3D" parent="." unique_id=300028542]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.881551, -9.536743e-07, 11.18752)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.772049, -9.536743e-07, 11.18752)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight24" unique_id=120106254]
@@ -360,7 +817,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="RoadStraight25" type="MeshInstance3D" parent="." unique_id=652976674]
-transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -10.881551, -9.536743e-07, 16.84045)
+transform = Transform3D(2.920244, 0, 0, 0, 1, 0, 0, 0, 2.8335354, -26.772049, -9.536743e-07, 16.84045)
 mesh = ExtResource("3_8ov26")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="RoadStraight25" unique_id=500114223]
@@ -369,7 +826,7 @@ mesh = ExtResource("3_8ov26")
 shape = SubResource("ConvexPolygonShape3D_3y6ib")
 
 [node name="UnbuiltOne" type="MeshInstance3D" parent="." unique_id=11617132]
-transform = Transform3D(2.9206278, 0, 0, 0, 3.2475853, 0, 0, 0, 2.9399848, 7.112942, -0.21096504, 16.647137)
+transform = Transform3D(2.9206278, 0, 0, 0, 3.2475853, 0, 0, 0, 2.9399848, -8.777555, -0.21096504, 16.647137)
 mesh = ExtResource("6_1y031")
 surface_material_override/0 = SubResource("StandardMaterial3D_06k2i")
 
@@ -387,7 +844,7 @@ script = ExtResource("3_q1brt")
 shape = SubResource("SphereShape3D_8plc7")
 
 [node name="BuildingC" type="MeshInstance3D" parent="." unique_id=719390680]
-transform = Transform3D(-1.12631014e-07, 0, -2.9774745, 0, 2.585895, 0, 2.5766976, 0, -1.3014954e-07, 7.167081, -0.15545797, 11.140681)
+transform = Transform3D(-1.12631014e-07, 0, -2.9774745, 0, 2.585895, 0, 2.5766976, 0, -1.3014954e-07, -8.723416, -0.15545797, 11.140681)
 mesh = ExtResource("7_jjn5d")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingC" unique_id=729113323]
@@ -396,7 +853,7 @@ mesh = ExtResource("7_jjn5d")
 shape = SubResource("ConvexPolygonShape3D_dx5ll")
 
 [node name="BuildingD" type="MeshInstance3D" parent="." unique_id=338061700]
-transform = Transform3D(-1.0898516e-07, 0, -2.9004543, 0, 2.029327, 0, 2.4932897, 0, -1.2678287e-07, 7.1514378, 0, 6.1197596)
+transform = Transform3D(-1.0898516e-07, 0, -2.9004543, 0, 2.029327, 0, 2.4932897, 0, -1.2678287e-07, -8.739059, 0, 6.1197596)
 mesh = ExtResource("8_kgxd2")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingD" unique_id=751856756]
@@ -405,7 +862,7 @@ mesh = ExtResource("8_kgxd2")
 shape = SubResource("ConvexPolygonShape3D_3cnbe")
 
 [node name="BuildingE" type="MeshInstance3D" parent="." unique_id=752337018]
-transform = Transform3D(-1.0026976e-07, 0, -2.9388878, 0, 3.0065374, 0, 2.2939045, 0, -1.2846287e-07, 7.0386763, 0, 1.3551702)
+transform = Transform3D(-1.0026976e-07, 0, -2.9388878, 0, 3.0065374, 0, 2.2939045, 0, -1.2846287e-07, -8.851821, 0, 1.3551702)
 mesh = ExtResource("9_06k2i")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingE" unique_id=1661746966]
@@ -414,7 +871,7 @@ mesh = ExtResource("9_06k2i")
 shape = SubResource("ConvexPolygonShape3D_ls8g2")
 
 [node name="BuildingF" type="MeshInstance3D" parent="." unique_id=1956294677]
-transform = Transform3D(-1.0234478e-07, 0, -3.0188112, 0, 2.3275273, 0, 2.3413756, 0, -1.3195643e-07, 7.0004315, 0, -3.3655376)
+transform = Transform3D(-1.0234478e-07, 0, -3.0188112, 0, 2.3275273, 0, 2.3413756, 0, -1.3195643e-07, -8.890066, 0, -3.3655376)
 mesh = ExtResource("10_8plc7")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingF" unique_id=1084804749]
@@ -423,7 +880,7 @@ mesh = ExtResource("10_8plc7")
 shape = SubResource("ConvexPolygonShape3D_up46d")
 
 [node name="BuildingG" type="MeshInstance3D" parent="." unique_id=92131344]
-transform = Transform3D(-9.752956e-08, 0, -3.0648127, 0, 2.4701622, 0, 2.2312164, 0, -1.3396722e-07, 7.063651, 0, -7.942049)
+transform = Transform3D(-9.752956e-08, 0, -3.0648127, 0, 2.4701622, 0, 2.2312164, 0, -1.3396722e-07, -8.826846, 0, -7.942049)
 mesh = ExtResource("11_kgxd2")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingG" unique_id=954771574]
@@ -432,7 +889,7 @@ mesh = ExtResource("11_kgxd2")
 shape = SubResource("ConvexPolygonShape3D_wv2yy")
 
 [node name="BuildingH" type="MeshInstance3D" parent="." unique_id=432036270]
-transform = Transform3D(-1.2923476e-07, 0, -3.2066753, 0, 2.4566863, 0, 2.956547, 0, -1.4016824e-07, 7.197426, 0, -13.034327)
+transform = Transform3D(-1.2923476e-07, 0, -3.2066753, 0, 2.4566863, 0, 2.956547, 0, -1.4016824e-07, -8.693071, 0, -13.034327)
 mesh = ExtResource("12_06k2i")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingH" unique_id=19932905]
@@ -441,7 +898,7 @@ mesh = ExtResource("12_06k2i")
 shape = SubResource("ConvexPolygonShape3D_ydjw1")
 
 [node name="BuildingB2" type="MeshInstance3D" parent="." unique_id=173367784]
-transform = Transform3D(-3.2495348, 0, 1.8579685e-07, 0, 3.478355, 0, -2.8408337e-07, 0, -2.1252682, 6.9699345, 2.3841858e-07, -18.129148)
+transform = Transform3D(-3.2495348, 0, 1.8579685e-07, 0, 3.478355, 0, -2.8408337e-07, 0, -2.1252682, -8.920563, 2.3841858e-07, -18.129148)
 mesh = ExtResource("6_1y031")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingB2" unique_id=590087168]
@@ -450,7 +907,7 @@ mesh = ExtResource("6_1y031")
 shape = SubResource("ConvexPolygonShape3D_w18bd")
 
 [node name="BuildingB3" type="MeshInstance3D" parent="." unique_id=781393437]
-transform = Transform3D(-2.9206276, 0, -2.570216e-07, 0, 3.2475853, 0, 2.5532938e-07, 0, -2.9399848, -5.4809914, -0.21096504, -17.26223)
+transform = Transform3D(-2.9206276, 0, -2.570216e-07, 0, 3.2475853, 0, 2.5532938e-07, 0, -2.9399848, -21.371489, -0.21096504, -17.26223)
 mesh = ExtResource("6_1y031")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingB3" unique_id=671296363]
@@ -459,7 +916,7 @@ mesh = ExtResource("6_1y031")
 shape = SubResource("ConvexPolygonShape3D_8plc7")
 
 [node name="BuildingC2" type="MeshInstance3D" parent="." unique_id=1534603717]
-transform = Transform3D(-1.1263104e-07, 0, 2.9774745, 0, 2.5858953, 0, -2.5766976, 0, -1.3014954e-07, -5.5351295, -0.15545797, -11.7557745)
+transform = Transform3D(-1.1263104e-07, 0, 2.9774745, 0, 2.5858953, 0, -2.5766976, 0, -1.3014954e-07, -21.425627, -0.15545797, -11.7557745)
 mesh = ExtResource("7_jjn5d")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingC2" unique_id=1301234298]
@@ -468,7 +925,7 @@ mesh = ExtResource("7_jjn5d")
 shape = SubResource("ConvexPolygonShape3D_dx5ll")
 
 [node name="BuildingD2" type="MeshInstance3D" parent="." unique_id=240320704]
-transform = Transform3D(-1.0898515e-07, 0, 2.9004543, 0, 2.029327, 0, -2.4932897, 0, -1.267829e-07, -5.519486, 0, -6.734853)
+transform = Transform3D(-1.0898515e-07, 0, 2.9004543, 0, 2.029327, 0, -2.4932897, 0, -1.267829e-07, -21.409983, 0, -6.734853)
 mesh = ExtResource("8_kgxd2")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingD2" unique_id=1838040509]
@@ -477,7 +934,7 @@ mesh = ExtResource("8_kgxd2")
 shape = SubResource("ConvexPolygonShape3D_3cnbe")
 
 [node name="BuildingE2" type="MeshInstance3D" parent="." unique_id=459040790]
-transform = Transform3D(-1.00269745e-07, 0, 2.9388876, 0, 3.006537, 0, -2.2939043, 0, -1.2846289e-07, -5.406724, 0, -1.9702635)
+transform = Transform3D(-1.00269745e-07, 0, 2.9388876, 0, 3.006537, 0, -2.2939043, 0, -1.2846289e-07, -21.297222, 0, -1.9702635)
 mesh = ExtResource("9_06k2i")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingE2" unique_id=94603923]
@@ -486,7 +943,7 @@ mesh = ExtResource("9_06k2i")
 shape = SubResource("ConvexPolygonShape3D_ls8g2")
 
 [node name="Unbuilt 2" type="MeshInstance3D" parent="." unique_id=1264292618]
-transform = Transform3D(-1.0234477e-07, 0, 3.018811, 0, 2.3275273, 0, -2.3413756, 0, -1.3195643e-07, -5.3684793, 0, 2.7504435)
+transform = Transform3D(-1.0234477e-07, 0, 3.018811, 0, 2.3275273, 0, -2.3413756, 0, -1.3195643e-07, -21.258976, 0, 2.7504435)
 mesh = ExtResource("10_8plc7")
 surface_material_override/0 = SubResource("StandardMaterial3D_8plc7")
 
@@ -504,7 +961,7 @@ script = ExtResource("3_q1brt")
 shape = SubResource("SphereShape3D_dx5ll")
 
 [node name="BuildingG2" type="MeshInstance3D" parent="." unique_id=1809469133]
-transform = Transform3D(-9.752958e-08, 0, 3.0648124, 0, 2.470162, 0, -2.2312162, 0, -1.3396718e-07, -5.4316983, 0, 7.326955)
+transform = Transform3D(-9.752958e-08, 0, 3.0648124, 0, 2.470162, 0, -2.2312162, 0, -1.3396718e-07, -21.322195, 0, 7.326955)
 mesh = ExtResource("11_kgxd2")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingG2" unique_id=618850270]
@@ -513,7 +970,7 @@ mesh = ExtResource("11_kgxd2")
 shape = SubResource("ConvexPolygonShape3D_wv2yy")
 
 [node name="BuildingH2" type="MeshInstance3D" parent="." unique_id=1399806100]
-transform = Transform3D(-1.2923479e-07, 0, 3.2066753, 0, 2.456686, 0, -2.956547, 0, -1.4016821e-07, -5.5654726, 0, 12.419232)
+transform = Transform3D(-1.2923479e-07, 0, 3.2066753, 0, 2.456686, 0, -2.956547, 0, -1.4016821e-07, -21.45597, 0, 12.419232)
 mesh = ExtResource("12_06k2i")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingH2" unique_id=1480477066]
@@ -522,7 +979,7 @@ mesh = ExtResource("12_06k2i")
 shape = SubResource("ConvexPolygonShape3D_ydjw1")
 
 [node name="BuildingB4" type="MeshInstance3D" parent="." unique_id=1568172722]
-transform = Transform3D(3.2495348, 0, 0, 0, 3.4783554, 0, 0, 0, 2.1252682, -5.3379807, 2.3841858e-07, 17.514053)
+transform = Transform3D(3.2495348, 0, 0, 0, 3.4783554, 0, 0, 0, 2.1252682, -21.228477, 2.3841858e-07, 17.514053)
 mesh = ExtResource("6_1y031")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="BuildingB4" unique_id=1600749155]
@@ -531,12 +988,12 @@ mesh = ExtResource("6_1y031")
 shape = SubResource("ConvexPolygonShape3D_w18bd")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=157635893]
-transform = Transform3D(1, 0, 0, 0, 0.17210105, 0.9850793, 0, -0.9850793, 0.17210105, 0, 23.722275, 0)
+transform = Transform3D(1, 0, 0, 0, 0.17210105, 0.9850793, 0, -0.9850793, 0.17210105, 0.4830227, 23.722275, 0)
 light_angular_distance = 60.0
 light_specular = 0.0
 
 [node name="Bush" type="MeshInstance3D" parent="." unique_id=1059669032]
-transform = Transform3D(1.6391389, 0, 0, 0, 2.813414, 0, 0, 0, 1.6427397, 0.04850799, 0.092808485, -24.340494)
+transform = Transform3D(1.6391389, 0, 0, 0, 2.813414, 0, 0, 0, 1.6427397, -15.8419895, 0.092808485, -24.340494)
 mesh = ExtResource("15_3cnbe")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="Bush" unique_id=1264270701]
