@@ -8,6 +8,10 @@ var total_bricks: int = 50
 
 # Signal emitted when the currency amount changes, for UI updates
 signal bricks_changed(amount: int)
+signal missing_bricks()
+
+func show_missing_bricks_label():
+	emit_signal("missing_bricks")
 
 func add_bricks(amount: float):
 	total_bricks = clamp(total_bricks + amount, 0, max_bricks)

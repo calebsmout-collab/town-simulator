@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=3 uid="uid://c4ev413klxhw2"]
+[gd_scene format=3 uid="uid://c4ev413klxhw2"]
 
 [ext_resource type="Script" uid="uid://bpd0qt1uqr3d7" path="res://player/player.gd" id="1_ulp21"]
 [ext_resource type="Texture2D" uid="uid://cuyh8hew637ju" path="res://player/reticle.png" id="2_3c3w1"]
 [ext_resource type="Script" uid="uid://dp3bxcjffei4b" path="res://player/label.gd" id="3_wnvi2"]
+[ext_resource type="Script" uid="uid://dfune7mjga6d1" path="res://player/Missing_bricks_label.gd" id="4_83hs8"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ehsmr"]
 radius = 0.31347656
@@ -13,30 +14,39 @@ font_size = 50
 outline_size = 8
 outline_color = Color(0, 0, 0, 1)
 
-[node name="CharacterBody3D" type="CharacterBody3D"]
+[node name="CharacterBody3D" type="CharacterBody3D" unique_id=1731481899]
 script = ExtResource("1_ulp21")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1349490040]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.7272949, 0)
 shape = SubResource("CapsuleShape3D_ehsmr")
 
-[node name="Camera3D" type="Camera3D" parent="."]
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1188957045]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.194929, 0)
 
-[node name="TextureRect" type="TextureRect" parent="."]
+[node name="TextureRect" type="TextureRect" parent="." unique_id=686598373]
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Reticle" type="Sprite2D" parent="."]
+[node name="Reticle" type="Sprite2D" parent="." unique_id=1195961759]
 position = Vector2(1152, 704)
 scale = Vector2(0.40909073, 0.37987006)
 texture = ExtResource("2_3c3w1")
 
-[node name="Label" type="Label" parent="."]
+[node name="Label" type="Label" parent="." unique_id=1267186166]
 offset_left = 68.0
 offset_top = 65.0
 offset_right = 327.0
 offset_bottom = 134.0
 label_settings = SubResource("LabelSettings_wnvi2")
 script = ExtResource("3_wnvi2")
+
+[node name="Missing_bricks_label" type="Label" parent="." unique_id=1006280493]
+offset_left = -29.999985
+offset_top = 1133.0
+offset_right = 112.000015
+offset_bottom = 1156.0
+scale = Vector2(15.4400015, 4.720001)
+text = "Not enough bricks"
+script = ExtResource("4_83hs8")
