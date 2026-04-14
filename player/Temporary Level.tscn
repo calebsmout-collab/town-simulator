@@ -1007,5 +1007,3 @@ script = ExtResource("14_dx5ll")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Bush/Area3D" unique_id=1796242408]
 shape = SubResource("SphereShape3D_8plc7")
-
-[connection signal="entered_area_3D" from="UnbuiltOne/Area3D" to="." method="_on_area_3d_entered_area_3d"]
