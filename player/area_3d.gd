@@ -34,7 +34,7 @@ func _on_Area3D_body_entered(body: Node3D):
 		# add timer
 		var timer := Timer.new()
 		add_child(timer)
-		timer.wait_time = 5.0 # 15 seconds
+		timer.wait_time = 4.0 # 15 seconds
 		timer.one_shot = true
 		
 		# run the timer
