@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://cuyh8hew637ju" path="res://player/reticle.png" id="2_3c3w1"]
 [ext_resource type="Script" uid="uid://dp3bxcjffei4b" path="res://player/label.gd" id="3_wnvi2"]
 [ext_resource type="Script" uid="uid://dfune7mjga6d1" path="res://player/Missing_bricks_label.gd" id="4_83hs8"]
+[ext_resource type="Script" uid="uid://2yertaoi4u1u" path="res://player/coins.gd" id="5_x8kxw"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_ehsmr"]
 radius = 0.31347656
@@ -50,3 +51,11 @@ offset_bottom = 1156.0
 scale = Vector2(15.4400015, 4.720001)
 text = "Not enough bricks"
 script = ExtResource("4_83hs8")
+
+[node name="Label2" type="Label" parent="." unique_id=941492146]
+offset_left = 64.0
+offset_top = 159.0
+offset_right = 323.0
+offset_bottom = 228.0
+label_settings = SubResource("LabelSettings_wnvi2")
+script = ExtResource("5_x8kxw")

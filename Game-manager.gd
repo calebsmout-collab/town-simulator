@@ -1,4 +1,5 @@
 extends Node
+class_name Gamemanager
 
 
 var max_bricks: int = 100
