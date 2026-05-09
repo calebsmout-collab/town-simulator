@@ -59,3 +59,11 @@ offset_bottom = 1156.0
 scale = Vector2(15.4400015, 4.720001)
 text = "Not enough bricks"
 script = ExtResource("4_83hs8")
+
+[node name="Label2" type="Label" parent="." unique_id=941492146]
+offset_left = 64.0
+offset_top = 159.0
+offset_right = 323.0
+offset_bottom = 228.0
+label_settings = SubResource("LabelSettings_wnvi2")
+script = ExtResource("5_x8kxw")
