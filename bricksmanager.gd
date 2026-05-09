@@ -1,5 +1,5 @@
 extends Node
-
+class_name bricksmanager
 
 var build_destroyed_coin_amount: int = 25
 var current_destroyed_coin_amount_multiplier: float = 1.0
