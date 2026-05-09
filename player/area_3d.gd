@@ -36,13 +36,14 @@ func _on_Area3D_body_entered(body: Node3D):
 		add_child(timer)
 		timer.wait_time = 4.0 # 15 seconds
 		timer.one_shot = true
-		
 		# run the timer
 		timer.timeout.connect(
 			func():
-			  # add the material back
-			self.get_parent().set_surface_override_material(0, material) # using material variable from above
-			  # disable the collider
-			self.get_parent().get_node("StaticBody3D/CollisionShape3D").call_deferred("set_disabled", true)
-			)
+				# add the material back
+				self.get_parent().set_surface_override_material(0, material) # using material variable from above
+				# disable the collider
+				self.get_parent().get_node("StaticBody3D/CollisionShape3D").call_deferred("set_disabled", true)
+				# give the player coins for the destroyed building
+				Bricksmanager.add_currency(Bricksmanager.build_destroyed_coin_amount * Bricksmanager.current_destroyed_coin_amount_multiplier)
+		)
 		timer.start()
